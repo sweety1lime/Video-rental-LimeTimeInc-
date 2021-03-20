@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="8036b995-938c-4fb8-98fa-3317e8d5aae9" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Language>EN-US</Language>
+			<Scale>200</Scale>
+			<TargetSize>24</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="Administration.xbf" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Administration.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="App.xbf" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Card.xbf" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Card.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Card_Materialxaml.xbf" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Card_Materialxaml.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Catalog.xbf" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Catalog.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EditingCatalog.xbf" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/EditingCatalog.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LimeInc.xr.xml" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/LimeInc.xr.xml">
+				<Candidate type="Path">
+					<Value>LimeInc.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PersonalArea.xbf" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/PersonalArea.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Users.xbf" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Users.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Assets/StoreLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
+				<NamedResource name="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
+					<Candidate type="Path">
+						<Value>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="DataGrid">
+					<NamedResource name="DataGrid.xaml" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/DataGrid/DataGrid.xaml">
+						<Candidate type="Path">
+							<Value>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\DataGrid\DataGrid.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="DataGrid.xbf" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/DataGrid/DataGrid.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xaml" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/Themes/Generic.xaml">
+						<Candidate type="Path">
+							<Value>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Themes\Generic.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Generic.xbf" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.Toolkit.Uwp.UI.Controls.Properties.Resources">
+			<NamedResource name="DataGridRowAutomationPeer_ItemType" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Microsoft.Toolkit.Uwp.UI.Controls.Properties.Resources/DataGridRowAutomationPeer_ItemType">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>row</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataGridRowGroupHeader_ItemCountPlural" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Microsoft.Toolkit.Uwp.UI.Controls.Properties.Resources/DataGridRowGroupHeader_ItemCountPlural">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>({0} items)</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataGridRowGroupHeader_ItemCountSingular" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Microsoft.Toolkit.Uwp.UI.Controls.Properties.Resources/DataGridRowGroupHeader_ItemCountSingular">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>({0} item)</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataGridRowGroupHeader_PropertyName" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Microsoft.Toolkit.Uwp.UI.Controls.Properties.Resources/DataGridRowGroupHeader_PropertyName">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>{0}:</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DefaultRowGroupHeaderPropertyNameAlternative" uri="ms-resource://8036b995-938c-4fb8-98fa-3317e8d5aae9/Microsoft.Toolkit.Uwp.UI.Controls.Properties.Resources/DefaultRowGroupHeaderPropertyNameAlternative">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Group</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Danil\source\repos\LimeInc\LimeInc\bin\x64\Release\LimeInc_1.0.4.0_x64.msix
+SymbolPackage=C:\Users\Danil\source\repos\LimeInc\LimeInc\obj\x64\Release\Symbols\LimeInc_1.0.4.0_x64.appxsym

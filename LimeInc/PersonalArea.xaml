@@ -1,0 +1,65 @@
+﻿<Page
+    x:Class="LimeInc.PersonalArea"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LimeInc"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:controls ="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid Background="#1A143B">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.ColumnSpan="2" Grid.Row="0" Background="#281F55">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Polygon Grid.Column="0" Fill="#F8104D" Points="0,0, 0,70, 170,70, 230,0"  />
+                <TextBlock Grid.Column="0" Text="LimeInc" VerticalAlignment="Center" Margin="40,0,0,0" FontFamily="Arial" FontSize="30"/>
+                <Button Grid.Column="1" Background="#281F55" HorizontalAlignment="Right" Margin="0,0,10,0" Content="Выйти" FontFamily="Arial" FontSize="20" Click="Button_Click_1"/>
+            </Grid>
+           
+            <Grid Grid.Row="2" Height="400" Width="700">
+                <Grid.RowDefinitions>
+                    <RowDefinition  Height="auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition  Height="*"/>
+                    <RowDefinition  Height="*"/>
+                    <RowDefinition  Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.ColumnSpan="2" Text="Личные данные" HorizontalAlignment="Center" FontSize="20" FontFamily="Arial"/>
+                <TextBox Grid.Row="1" Name="Last_Name"  PlaceholderText="Фамилия"  TextAlignment="Center" VerticalAlignment="Center" FontFamily="Arial" FontSize="20" Foreground="White" Background="{x:Null}" PlaceholderForeground="White" BeforeTextChanging="Last_Name_BeforeTextChanging"/>
+                <TextBox Grid.Row="2" Name="Name_Client" PlaceholderText="Имя" TextAlignment="Center" VerticalAlignment="Center" FontFamily="Arial" FontSize="20" Foreground="White" Background="{x:Null}" PlaceholderForeground="White" BeforeTextChanging="Name_Client_BeforeTextChanging"/>
+                <TextBox Grid.Row="3" Name="Surname" PlaceholderText="Отчество" TextAlignment="Center" VerticalAlignment="Center" FontFamily="Arial" FontSize="20" Foreground="White " Background="{x:Null}" PlaceholderForeground="White" BeforeTextChanging="Surname_BeforeTextChanging"/>
+                <TextBox Grid.Column="1" Name="Serial_Number" Grid.Row="1"  PlaceholderText="Серия и номер паспорта" TextAlignment="Center" VerticalAlignment="Center" FontFamily="Arial" FontSize="20" Foreground="White" Background="{x:Null}" PlaceholderForeground="White" BeforeTextChanging="Serial_Number_BeforeTextChanging"/>
+                <CalendarDatePicker Grid.Column="1" Name="Date" Grid.Row="2" HorizontalAlignment="Stretch"  VerticalAlignment="Center" FontFamily="Arial" FontSize="20" Foreground="White" Background="{x:Null}"/>
+                <TextBox Grid.Column="1" Grid.Row="3" Name="Issued_by" PlaceholderText="Кем выдан" TextAlignment="Center" VerticalAlignment="Center" FontFamily="Arial" FontSize="20" Foreground="White" Background="{x:Null}" PlaceholderForeground="White"/>
+                <Button Grid.ColumnSpan="2" Grid.Row="5" HorizontalAlignment="Center" Content="Сохранить" Foreground="White"  Background="#F8104D" Click="Button_Click"/>
+            </Grid>
+            <TextBlock Margin="30,30,30,30" Text="Личный кабинет" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Arial" FontSize="30"/>
+            <Grid Grid.Row="2" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+            <controls:DataGrid Name="Rent" Grid.Column="1" Grid.Row="0" Background="#281F55" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" ></controls:DataGrid>
+                <Button Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20,20,20,20" Content="Возврат" FontFamily="Arial" FontSize="20" Background="#F8104D" Click="Button_Click_2"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

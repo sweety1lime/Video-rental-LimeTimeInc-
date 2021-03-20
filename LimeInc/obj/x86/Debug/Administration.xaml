@@ -1,0 +1,79 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="LimeInc.Administration"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LimeInc"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+      xmlns:controls ="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                     >
+
+    <Grid Background="#1A143B">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.ColumnSpan="2" Grid.Row="0" Background="#281F55">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Polygon Grid.Column="0" Fill="#F8104D" Points="0,0, 0,70, 170,70, 230,0"  />
+            <TextBlock Grid.Column="0" Text="LimeInc" VerticalAlignment="Center" Margin="40,0,0,0" FontFamily="Arial" FontSize="30"/>
+            <Button x:ConnectionId='18' Grid.Column="1" Background="#281F55" HorizontalAlignment="Right" Margin="0,0,10,0" Content="Выйти" FontFamily="Arial" FontSize="20"                     />
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="1" Height="600" Margin="15,30,30,30">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Margin="0,0,0,10" Grid.ColumnSpan="5" Grid.Row="0" Text="Управление сотрудниками и пользователями" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Arial" FontSize="30"/>
+
+            <TextBox x:ConnectionId='5' Grid.Row="1" Name="Last_Name" Grid.Column="1" PlaceholderText="Фамилия" PlaceholderForeground="#FFFBF8F8" FontFamily="Arial" FontSize="20"                                                   />
+            <TextBox x:ConnectionId='6' Grid.Row="2" Name="Serial_Number" Grid.Column="1" PlaceholderText="Серия и номер паспорта" PlaceholderForeground="#FFFBF8F8" FontFamily="Arial" FontSize="20"                                                       />
+            <TextBox x:ConnectionId='7' Grid.Row="1" Name="Name_Employee" Grid.Column="2" PlaceholderText="Имя" PlaceholderForeground="#FFFBF8F8" FontFamily="Arial" FontSize="20"                                                       />
+            <TextBox x:ConnectionId='8' Grid.Row="2" Name="Issued_by" Grid.Column="2" PlaceholderText="Кем выдан" PlaceholderForeground="#FFFBF8F8" FontFamily="Arial" FontSize="20" />
+            <TextBox x:ConnectionId='9' Grid.Row="1" Name="Surname" Grid.Column="3" PlaceholderText="Отчество" PlaceholderForeground="#FFFBF8F8" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="20"                                                 />
+            <TextBox x:ConnectionId='10' Grid.Row="1" Name="Login" Grid.Column="4" PlaceholderText="Логин" PlaceholderForeground="#FFFBF8F8" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="20" />
+            <TextBox x:ConnectionId='11' Grid.Row="2" Name="Password" Grid.Column="4" PlaceholderText="Пароль" PlaceholderForeground="#FFFBF8F8" HorizontalAlignment="Stretch" FontFamily="Arial" FontSize="20" />
+            <ComboBox x:ConnectionId='12' Grid.Row="3" Grid.Column="4" HorizontalAlignment="Stretch" Name="Role" VerticalAlignment="Stretch" />
+            <CalendarDatePicker x:ConnectionId='13' Name="Date" Grid.Row="2" Grid.Column="3" PlaceholderText="Дата выдачи" HorizontalAlignment="Stretch"   FontSize="20"/>
+            <Button x:ConnectionId='14' Grid.Row="3" Grid.Column="1" Margin="10,0,5,0" HorizontalAlignment="Stretch" Content="Создать" Background="#F8104D" FontFamily="Arial" FontSize="20"                        />
+            <Button x:ConnectionId='15' Grid.Row="3" Grid.Column="2" Margin="5,0,5,0" HorizontalAlignment="Stretch" Content="Изменить" Background="#F8104D" FontFamily="Arial" FontSize="20" VerticalAlignment="Stretch"                        />
+            <Button x:ConnectionId='16' Grid.Row="3"  Grid.Column="3" Margin="5,0,10,0" HorizontalAlignment="Stretch" Content="Удалить" Background="#F8104D" FontFamily="Arial" FontSize="20"                        />
+            <controls:DataGrid x:ConnectionId='17' Name="Employee" Grid.ColumnSpan="5" Grid.Row="4" Background="#281F55"                                             />
+        </Grid>
+        <TextBlock Grid.Row="1" Grid.ColumnSpan="2"  Text="Администрирование" HorizontalAlignment="Center" FontSize="40" FontFamily="Arial"/>
+        <Grid Grid.Row="2" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Text="Переход по другим окнам" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Arial" FontSize="40" />
+            <Button x:ConnectionId='2' Grid.Row="1" Content="Информация о пользователях" HorizontalAlignment="Center" FontFamily="Arial" FontSize="20" Background="#F8104D"                       />
+            <Button x:ConnectionId='3' Grid.Row="2" Content="Переход к окну редактора" HorizontalAlignment="Center" FontFamily="Arial" FontSize="20" Background="#F8104D"                       />
+            <Button x:ConnectionId='4' Grid.Row="3" Content="Переход к окну каталога" HorizontalAlignment="Center" FontFamily="Arial" FontSize="20" Background="#F8104D"                       />
+
+        </Grid>
+    </Grid>
+</Page>
+

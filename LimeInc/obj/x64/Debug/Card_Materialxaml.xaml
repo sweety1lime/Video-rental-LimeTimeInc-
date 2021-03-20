@@ -1,0 +1,23 @@
+﻿<UserControl
+    x:Class="LimeInc.Card_Materialxaml"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LimeInc"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="400"
+    d:DesignWidth="300">
+
+    <Grid Height="400" Width="300" Background="#1A143B">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="0.6*"/>
+        </Grid.RowDefinitions>
+        <Image x:ConnectionId='2' x:Name="Image" Grid.Row="0" Width="180" Height="250" VerticalAlignment="Top"></Image>
+        <TextBlock x:ConnectionId='3' x:Name="TypeFile" Grid.Row="2"  Text="Тип файла" HorizontalAlignment="Center" FontFamily="Arial" FontSize="20" TextAlignment="Center" Foreground="#FF746A6A" TextWrapping="Wrap"/>
+        <TextBlock x:ConnectionId='4' x:Name="NameFile" Grid.Row="1" Text="Название" HorizontalAlignment="Center" FontFamily="Arial" FontSize="20" TextAlignment="Center" TextWrapping="Wrap"  />
+    </Grid>
+</UserControl>
+
